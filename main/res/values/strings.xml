@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EndlessRunnerProject</string>
+    <string name="app_tryAgain">Try again!</string>
+    <string name="app_welcome">Welcome to Endless Runner Project :)</string>
+    <string name="app_play">Play!</string>
+    <string name="app_madeBy">Made by Igor Ceglarz</string>
+    <string name="app_score">Score: </string>
+    <string name="app_personalBest">Personal best: </string>
+    <string name="app_restart">Restart</string>
+    <string name="app_exit">Exit</string>
+    <string name="app_scoreGame">Score: </string>
+</resources>

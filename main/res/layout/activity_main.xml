@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/finalnight"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="209dp"
+        android:layout_height="197dp"
+        android:background="@drawable/play2"
+        android:contentDescription="TODO"
+        android:layout_centerInParent="true"
+        android:onClick="startGame"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imageButton2"
+        android:layout_centerInParent="true"
+        android:text="@string/app_play"
+        android:textSize="34sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_welcome"
+        android:textSize="34sp"
+        android:layout_above="@id/textView2"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_madeBy"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:layout_marginBottom="3dp"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
